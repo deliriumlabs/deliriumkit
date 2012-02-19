@@ -1,0 +1,50 @@
+
+
+
+.error{
+	border:#0066CC; 
+	text-align:left; 
+	background-repeat:no-repeat;
+	background-image:url('images/msg/msg_error.png');
+    _background-image:url('images/msg/msg_error.gif');
+    padding:10 0 10 32;
+    text-bold:bold;
+    font-weight:bold;        
+    display:block;
+    height:32px;
+	padding-left:32px;
+}
+.warning{
+	border:#0066CC; 
+	text-align:left; 
+	background-repeat:no-repeat;
+	background-image:url('images/msg/msg_warning.png');
+    _background-image:url('images/msg/msg_warning.gif');
+    padding:10 0 0 32;
+    text-bold:bold;
+    font-weight:bold;
+    height:32px;
+	padding-left:32px;
+}
+.msgok,.msg{
+	border:#0066CC; 
+	text-align:left; 
+	background-repeat:no-repeat;
+	background-image:url('images/msg/msg_ok.png');
+    _background-image:url('images/msg/msg_ok.gif');
+    padding:10 0 0 32;
+    text-bold:bold;
+    font-weight:bold;
+    height:32px;
+	padding-left:32px;
+}
+.msg{
+	border:#0066CC; 
+	text-align:left; 
+	background-repeat:no-repeat;	
+    padding:10 0 0 32;
+    text-bold:bold;
+    font-weight:bold;
+    height:32px;
+	padding-left:32px;
+}

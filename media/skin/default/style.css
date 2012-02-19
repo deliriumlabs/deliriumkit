@@ -1,0 +1,138 @@
+@import url("tabs.css");
+@import url("containers.css");
+@import url("delirium_windows.css");
+@import url("deliriumsearch.css");
+@import url("delirium_suggest.css");
+@import url("liquidcorners.css");
+@import url("forms.css");
+@import url("buttons.css");
+@import url("msg.css");
+
+body {
+font-family:verdana,arial,sans-serif;
+font-size:10px;
+}
+* {
+font-family:verdana,arial,sans-serif;
+font-size:10px;
+margin:0pt;
+}
+body{
+height:100%;
+/*background:#336699 url(images/bg.png) repeat;*/
+}
+html{
+height:100%;
+overflow:hidden;
+}
+
+/*remover halo azul en safari y chrome*/
+input, textarea  {
+    outline:none;
+}
+
+#workspace {
+height:100%;
+}
+#top {
+height:100px;
+}
+
+.clear{
+    clear:both;
+}
+#global_info{
+ position:absolute;
+ left:201px;
+ height:35px; 
+}
+#opciones_globales {
+	position:absolute;
+	left:201px;
+	top:35px;
+}
+#opciones_globales ul{
+	list-style-type:none;
+}
+#opciones_globales ul li{
+ 	display:inline;
+}
+#opciones_globales ul li a{
+
+}
+
+#middle {
+	height:80%;
+
+}
+#sidebar_left {
+	float:left;
+	width:200px;
+	height:100%;
+}
+#main {
+	display:inline;
+	width:100%;
+	height:100%;	
+
+}
+#footer {
+	background:transparent url(images/bg_dock.gif) repeat-x scroll 0pt;
+	bottom:0pt;
+	height:26px;
+	left:0pt;
+	position:absolute;
+	width:100%;
+	z-index:100000;
+}
+
+.strip_bg{
+	
+}
+
+
+#widgets{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+}
+
+#widgets li{
+	display:block;
+	float:left;
+}
+
+#sub_menu{	
+	margin:0pt auto;
+	width:98%;
+	padding:5px;
+}
+
+/*NO REMOVER*/
+#working_area {
+	z-index:2;
+	width: 100%;margin: 0 auto; padding-bottom: 60px; position: relative;
+	overflow:auto;
+	/*padding-top:10px;*/
+	height:90%;
+}
+#notification_area {
+	border : 1px #C0C0C0 solid;	
+}
+
+#footer {
+	background-color: #FFFFFF;
+	width: 100%;
+	z-index:2;		
+	bottom: 0;
+	position: fixed;		
+	z-index:2;
+}
+#footer  div{
+	height:25px;
+	display: inline;
+	float:left;
+	z-index:3;
+	padding-left:1px;
+	padding-right:1px;
+}

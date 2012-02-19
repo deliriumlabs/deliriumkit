@@ -1,0 +1,115 @@
+/*formularios*/
+
+/*login*/
+#login_form{background: transparent url('images/login_bg.png') repeat-y;width:381px;height:100%;margin:0pt auto;padding-top:10%}
+#login_form b{margin-left:36px}
+#login_form #chr_username {background-color:#FFFFFF;background-image:url(images/16m.png);background-position:left center;background-repeat:no-repeat;color:#999999;font-family:Arial;font-size:18px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;padding:3px 5px 3px 19px;width:285px;margin-left:36px;width:276px;}
+#login_form #chr_username:focus, #login_form #chr_username:hover {background-color:#F0FFE6;}
+#login_form #chr_passwd {background-color:#FFFFFF;background-image:url(images/16s.png);background-position:left center;background-repeat:no-repeat;color:#999999;font-family:Arial;font-size:18px;font-size-adjust:none;font-stretch:normal;font-style:normal;font-variant:normal;font-weight:normal;line-height:normal;padding:3px 5px 3px 19px;width:285px;margin-left:36px;width:276px;}
+#login_form #chr_passwd:focus, #login_form #chr_passwd:hover {background-color:#F0FFE6;}
+#login_form #btn_login{background:transparent url(images/btn_login.png) no-repeat;margin-top:14px;margin-left:111px;width:158px;height:31px;border:none;cursor:pointer;overflow:hidden;text-indent:-200px;}
+
+.form{
+	background:transparent none repeat scroll 0% !important;
+	position:relative;
+} 
+.form fieldset{
+	background:transparent none repeat scroll 0% !important;
+	border:0px solid #CCC;
+	padding: 10px;
+	margin: 0;
+	/*margin-top:15px;*/
+}
+.form fieldset legend{
+	display:none;
+}
+.form fieldset .form_item{
+	outline-color:invert;
+	outline-style:none;
+	outline-width:medium;
+	
+	display:block;
+	font-family:tahoma,arial,helvetica,sans-serif !important;
+	font-size:12px !important;
+	font-size-adjust:none  !important;
+	font-stretch:normal  !important;
+	font-style:normal  !important;
+	font-variant:normal  !important;
+	font-weight:normal !important;
+	line-height:normal !important;
+	margin-bottom:4px !important;
+	clear:both;
+	
+}
+.form fieldset .form_item label{
+	clear:left;
+	display:block;
+	float:left;
+	padding:3px 3px 3px 0pt;
+	position:relative;
+	width:100px;
+	z-index:2;
+	font-size:12px !important;
+}
+.form fieldset .form_item label.in_line{
+float:none;
+display:inline;
+}
+
+.form fieldset .form_item  .inline{
+	/*float:none;
+	display:inline;
+	padding:3px 3px 3px 0pt;
+	font-size:12px !important;
+	clear:both;
+	*/
+	font-size:12px !important;
+	padding:3px 3px 3px 0pt;
+}
+
+.form fieldset .form_item input[type="text"]{
+	background-color:#FFFFFF;
+	border:1px solid #B5B8C8;
+	padding:1px 3px;
+	width:150px;
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+}
+
+.text{
+	background-color:#FFFFFF;
+	border:1px solid #B5B8C8;
+	padding:1px 3px;
+	width:150px;
+}
+
+.panel_buttons{
+	text-align:center;
+	clear:both;
+}
+input,textarea{
+	border:1px solid #B5B8C8;
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;
+}
+.form fieldset .form_item textarea:focus,
+.form fieldset .form_item textarea:hover,
+.form fieldset .form_item input[type="text"]:focus,
+.form fieldset .form_item input[type="text"]:hover,input[type="text"]:hover,
+input[type="text"]:focus,
+textarea:focus,
+textarea:hover {
+	background-color:#F0FFE6 !important;
+	-moz-border-radius-bottomleft:3px;
+	-moz-border-radius-bottomright:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-topright:3px;	
+}
+.form em{
+	font-weight:bolder;
+	color:#FF0000;
+}

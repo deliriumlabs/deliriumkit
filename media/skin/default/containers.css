@@ -1,0 +1,22 @@
+.container {
+	background-color:#EBF3F5;
+	border:thin solid #EAE9DA;
+	padding-left:5px;
+	padding-right:5px;
+	padding:5px;	
+}
+.internal{
+	background-color:#F5F5DC;
+	border-style:solid;
+	border-width:thin;
+	border-color:#C0C0C0;
+	padding:5px;
+	table-layout:auto;
+}
+
+.show{
+	
+}
+.hide{
+	display:none;
+}
